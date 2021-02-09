@@ -35,7 +35,7 @@ body {
   font-weight: 700;
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: .25rem solid ;
 }
 
 .nav-masthead .nav-link:hover,
@@ -50,4 +50,47 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+
+/* slider */
+#carouselExampleIndicators{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+
+
+#carouselExampleIndicators .carousel-inner .carousel-item{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url('https://www.americangolf.com/blog/app/uploads/2019/04/shutterstock_335702240-500x300.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url('https://static01.nyt.com/images/2020/07/27/multimedia/27xp-puttputt-promo/27xp-puttputt-promo-mediumSquareAt3X.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url('https://static01.nyt.com/images/2020/07/27/multimedia/27xp-puttputt-promo/27xp-puttputt-promo-mediumSquareAt3X.jpg');
+    background-size: 100% 100%;
+    background-position: center;
 }
