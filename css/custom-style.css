@@ -53,44 +53,55 @@ body {
 }
 
 
-/* slider */
-#carouselExampleIndicators{
-    position: relative;
-    height: 100vh;
-    width: 100%;
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#carouselExampleIndicators .carousel-inner{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: #000;
+.hideform {
+    display: none;
 }
 
 
-#carouselExampleIndicators .carousel-inner .carousel-item{
-    position: relative;
-    height: 100%;
+/*-------modal------*/
+
+.bg-modal{
     width: 100%;
-    background: url('https://www.americangolf.com/blog/app/uploads/2019/04/shutterstock_335702240-500x300.jpg');
-    background-size: 100% 100%;
-    background-position: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+ display: none; 
+}
+
+.modal-content{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+input{
+    width: 50%;
+    display: block;
+    margin: 15px auto;
 }
 
 
-#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: url('https://static01.nyt.com/images/2020/07/27/multimedia/27xp-puttputt-promo/27xp-puttputt-promo-mediumSquareAt3X.jpg');
-    background-size: 100% 100%;
-    background-position: center;
-}
-#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: url('https://static01.nyt.com/images/2020/07/27/multimedia/27xp-puttputt-promo/27xp-puttputt-promo-mediumSquareAt3X.jpg');
-    background-size: 100% 100%;
-    background-position: center;
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 35px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    color: black;
+    
 }
