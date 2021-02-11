@@ -2130,7 +2130,7 @@ progress {
 }
 
 .col-form-label-lg {
-  padding-top: calc(0.5rem + 1px);
+  padding-top: calc(0.5rem + 5px);
   padding-bottom: calc(0.5rem + 1px);
   font-size: 1.25rem;
 }
@@ -2339,7 +2339,6 @@ textarea.form-control-lg {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  vertical-align: middle;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2644,6 +2643,7 @@ textarea.form-control-lg {
 
 .input-group {
   position: relative;
+  padding-top: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
@@ -2674,7 +2674,7 @@ textarea.form-control-lg {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1;
   color: #212529;
   text-align: center;
   white-space: nowrap;
@@ -3152,12 +3152,12 @@ textarea.form-control-lg {
 
 .btn-outline-primary {
   color: #0d6efd;
-  border-color: #ffffff;
+  border-color: #0d6efd;
 }
 .btn-outline-primary:hover {
   color: #fff;
   background-color: #0d6efd;
-  border-color: #ffffff;
+  border-color: #0d6efd;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
@@ -3202,12 +3202,12 @@ textarea.form-control-lg {
 
 .btn-outline-success {
   color: #198754;
-  border-color: #fafafa;
+  border-color: #198754;
 }
 .btn-outline-success:hover {
   color: #fff;
   background-color: #198754;
-  border-color: #ffffff;
+  border-color: #198754;
 }
 .btn-check:focus + .btn-outline-success, .btn-outline-success:focus {
   box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
@@ -3215,7 +3215,7 @@ textarea.form-control-lg {
 .btn-check:checked + .btn-outline-success, .btn-check:active + .btn-outline-success, .btn-outline-success:active, .btn-outline-success.active, .btn-outline-success.dropdown-toggle.show {
   color: #fff;
   background-color: #198754;
-  border-color: #ffffff;
+  border-color: #198754;
 }
 .btn-check:checked + .btn-outline-success:focus, .btn-check:active + .btn-outline-success:focus, .btn-outline-success:active:focus, .btn-outline-success.active:focus, .btn-outline-success.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
@@ -3277,12 +3277,12 @@ textarea.form-control-lg {
 
 .btn-outline-danger {
   color: #dc3545;
-  border-color: #ffffff;
+  border-color: #dc3545;
 }
 .btn-outline-danger:hover {
   color: #fff;
   background-color: #dc3545;
-  border-color: #faf9f9;
+  border-color: #dc3545;
 }
 .btn-check:focus + .btn-outline-danger, .btn-outline-danger:focus {
   box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5);
@@ -3290,7 +3290,7 @@ textarea.form-control-lg {
 .btn-check:checked + .btn-outline-danger, .btn-check:active + .btn-outline-danger, .btn-outline-danger:active, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show {
   color: #fff;
   background-color: #dc3545;
-  border-color: #faf9f9;
+  border-color: #dc3545;
 }
 .btn-check:checked + .btn-outline-danger:focus, .btn-check:active + .btn-outline-danger:focus, .btn-outline-danger:active:focus, .btn-outline-danger.active:focus, .btn-outline-danger.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5);
@@ -7222,6 +7222,7 @@ textarea.form-control-lg {
 .bg-green {
   background-color: #B8E2A3 !important;
 }
+
 
 .bg-dark {
   background-color: #212529 !important;

@@ -1,7 +1,7 @@
-document.getElementById('modal').addEventListener('click', function(){
-    document.querySelector('.bg-modal').style.display = 'flex';
-});
 
-document.querySelector('.close').addEventListener('click', function(){
-    document.querySelector('.bg-modal').style.display = 'none';
-});
+// $(document).ready(function(){
+//     $("#name").on('change',function(){
+//         $(".1").hide()
+//         $("#" + $(this).val()).fadeIN(700);
+//     }).change();
+// });
